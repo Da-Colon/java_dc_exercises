@@ -35,8 +35,43 @@ public class Main {
 
 //        DigitalCrafts Exercises Two
 
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.printNumbers();
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.printSquare(5);
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.printBox(5, 5);
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.printBanner("Hello World");
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.numberFactor(120lo);
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.decipherOne("Do you ever get tired of Hello World", 13);
+//        DcExerciseTwo.decipher("QBmLBHmrIrEmtrGmGvErqmBsmUryyBmiBEyq", 13);
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.leetSpeak("leetspeak");
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        DcExerciseTwo.longVowels("The good, long vowels");
+
         System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+        int[] numbers = {1,5,3};
+        DcExerciseTwo.sumNumbers(numbers);
 
-
+        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
     }
 }
