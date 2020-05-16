@@ -126,15 +126,37 @@ public class DcExerciseTwo {
                 result = result.concat(Character.toString(text.charAt(i)).repeat(5));
                 i++;
             }
-
             else
                 result = result.concat(Character.toString(text.charAt(i)));
-
         }
             System.out.println(result);
     }
 
     public static void sumNumbers(int[] numbers){
+        int sum = 0;
+        for(int num : numbers){
+            sum += num;
+        }
+        System.out.println("The Sum of the Array is:    " + sum);
+    }
 
+    public static void sumPostiveNumbers(int[] numbers){
+        int sum = 0;
+        for(int num: numbers){
+            if(num > 0)
+                sum += num;
+        }
+        System.out.println("The Sum of the Array is:    " + sum);
+    }
+
+    public static void matrixSum(int[][] matrixOne, int[][] matrixTwo){
+        Integer[][] newMatrix = new Integer[2][2];
+        for(int i = 0; i < matrixOne.length; i++){
+            for(int j = 0; j < matrixTwo.length; j++){
+                int numSum = matrixOne[i][j] + matrixTwo[i][j];
+                newMatrix[i][j] = numSum;
+            }
+        }
+        System.out.println(Arrays.deepToString(newMatrix));
     }
 }

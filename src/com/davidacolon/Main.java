@@ -68,9 +68,21 @@ public class Main {
 //
 //        DcExerciseTwo.longVowels("The good, long vowels");
 
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        int[] numbers = {1,5,3};
+//        DcExerciseTwo.sumNumbers(numbers);
+
+//        System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
+//
+//        int[] numbersList = {1,-5,4,6,-3,10};
+//        DcExerciseTwo.sumPostiveNumbers(numbersList);
+
         System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
-        int[] numbers = {1,5,3};
-        DcExerciseTwo.sumNumbers(numbers);
+
+        int[][] matrixOne = {{1, 2}, {3, 4}};
+        int[][] matrixTwo = {{1, 2}, {3, 4}};
+        DcExerciseTwo.matrixSum(matrixOne, matrixTwo);
 
         System.out.println("\n0-0-0-0-0-0-0-0-0-0-0-0-0-0-0\n");
     }
